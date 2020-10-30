@@ -5,4 +5,7 @@
     </p>
 </div>
 
-<img src="like_home.png">
+## Introduction
+
+This repository contains my personal configuration files (also known as
+*dotfiles*).
