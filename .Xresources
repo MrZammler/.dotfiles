@@ -1,0 +1,118 @@
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.hinting:    true
+Xft.autohint:  false
+Xft.hintstyle:  hintfull
+Xft.lcdfilter: lcdnone
+Xft.rgba: none
+
+rofi.modi: run,drun
+rofi.font: Futura LT 12
+rofi.width: 50
+rofi.lines: 5
+rofi.columns: 1
+rofi.opacity: 100
+!                    bg       fg      altbg    hlbg     hlfg
+rofi.color-normal: #263238, #eeffff, #263238, #4883ff, #eeffff
+rofi.color-urgent: #263238, #eeffff, #263238, #4883ff, #eeffff
+rofi.color-active: #263238, #eeffff, #263238, #4883ff, #eeffff
+rofi.color-window: #263238, #4883ff, #4883ff
+rofi.bw: 4
+rofi.location: 0
+rofi.padding: 10
+rofi.fuzzy: false
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.auto-select: false
+Xcursor.size: 16
+
+URxvt.font: xft:Inconsolata:size=8,xft:Font Awesome 5 Free:size=8
+!URxvt.font: xft:Inconsolata Nerd Font:size=10:antialias=false
+!URxvt.font: xft:Iosevka:size=9.5:antialias=false
+URxvt.boldFont:
+
+URxvt.internalBorder: 20
+! General
+*.scrollBar: false
+*.saveLines: 8192
+*.internalBorder: 10
+*.cursorUnderline: false
+*.cursorBlink: false
+*.dynamicColors:on
+*.letterSpace: 0
+*.geometry: 120x50
+
+URxvt.iconFile: /usr/share/icons/Paper/48x48/apps/terminal.png
+
+! Clickable Links
+*perl-ext-common:        default,matcher,clipboard,tabbedex
+*keysym.Shift-Control-V: perl:clipboard:paste
+*urlLauncher:            firefox
+*matcher.button:         1
+*url-select.underline:   true
+
+URxvt.tabbed.new-button:        false
+URxvt.tabbed.autohide:          yes
+URXvt.tabbed.reopen-on-close:   yes
+URxvt.keysym.Control-Shift-N:   perl:tabbedex:new_tab
+URxvt.keysym.Control-l: perl:tabbedex:next_tab
+URxvt.keysym.Control-j: perl:tabbedex:prev_tab
+URxvt.keysym.Control-i: perl:tabbedex:rename_tab
+URxvt.keysym.Control-Tab: perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Tab: perl:tabbedex:prev_tab
+
+URxvt.cursorUnderline:1
+
+URxvt.tabbed.no-tabbedex-keys:  true
+URxvt.tabbed.tabbar-bg: -1
+URxvt.tabbed.title-bg: -1
+URxvt.tabbed.tab-bg: 14
+URxvt.tabbed.tab-fg: 10
+URxvt.tabbed.title-fg: 10
+
+! ! Extra
+! *color253:      #2b303b
+! *.color254:     #191921
+! *.color255:     #eeeeee
+
+! ! Colors
+! *.borderColor:  #2b303b
+! *.background:   #2b303b
+! *.foreground:   #eeeeee
+! *.cursorColor:  #eeeeee
+
+! ! Black
+! *color0:       #4b4b4b
+! *color8:       #5f5f5f
+
+! ! Red
+! *color1:       #a89297
+! *color9:       #dabdb3
+
+! ! Green
+! *color2:       #b6bd97
+! *color10:      #e2efb4
+
+! ! Yellow
+! *color3:       #b9bda9
+! *color11:      #e9efd5
+
+! ! Blue
+! *color4:       #869baa
+! *color12:      #b4cbdc
+
+! ! Magenta
+! *color5:       #b8bbc3
+! *color13:      #e8eaf5
+
+! ! Cyan
+! *color6:       #93a0aa
+! *color14:      #becfdc
+
+! ! White
+! *color7:       #cbcbc1
+! *color15:      #eeede1
+
+! *color16:      #2b303b
+
+#include "/home/evas/.base16-tomorrow-256.Xresources"
