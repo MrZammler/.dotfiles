@@ -1,3 +1,3 @@
 Dotfiles!
 
-<img src=".github/like_home.png">
+<img src="like_home.png">
