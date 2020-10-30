@@ -27,8 +27,6 @@ rofi.auto-select: false
 Xcursor.size: 16
 
 URxvt.font: xft:Inconsolata:size=8,xft:Font Awesome 5 Free:size=8
-!URxvt.font: xft:Inconsolata Nerd Font:size=10:antialias=false
-!URxvt.font: xft:Iosevka:size=9.5:antialias=false
 URxvt.boldFont:
 
 URxvt.internalBorder: 20
