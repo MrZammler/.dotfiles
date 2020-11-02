@@ -78,27 +78,13 @@ awful.spawn.with_shell(
 
 -- {{{ Variable definitions
 
-local themes = {
-    "blackburn",       -- 1
-    "copland",         -- 2
-    "dremora",         -- 3
-    "holo",            -- 4
-    "multicolor",      -- 5
-    "powerarrow",      -- 6
-    "powerarrow-dark", -- 7
-    "rainbow",         -- 8
-    "steamburn",       -- 9
-    "vertex",          -- 10
-}
-
-local chosen_theme = themes[4]
 local modkey        = "Mod4"
 local altkey        = "Mod1"
 local terminal      = "kitty"
 local vi_focus      = false -- vi-like client focus - https://github.com/lcpz/awesome-copycats/issues/275
 local cycle_prev    = false -- cycle trough all previous client or just the first -- https://github.com/lcpz/awesome-copycats/issues/274
 local editor        = os.getenv("EDITOR") or "vim"
-local gui_editor    = os.getenv("GUI_EDITOR") or "gvim"
+local gui_editor    = os.getenv("GUI_EDITOR") or "emacs"
 local browser       = os.getenv("BROWSER") or "firefox"
 local file_manager  = "nautilus"
 local scrlocker     = "slock"
@@ -272,8 +258,8 @@ awful.screen.connect_for_each_screen(function(s) beautiful.at_screen_connect(s) 
 globalkeys = my_table.join(
     -- Take a screenshot
     -- https://github.com/lcpz/dots/blob/master/bin/screenshot
-    awful.key({ altkey }, "p", function() os.execute("screenshot") end,
-              {description = "take a screenshot", group = "hotkeys"}),
+    -- awful.key({ altkey }, "p", function() os.execute("screenshot") end,
+    --           {description = "take a screenshot", group = "hotkeys"}),
 
     -- X screen locker
     awful.key({ altkey, "Control" }, "l", function () os.execute(scrlocker) end,
@@ -295,8 +281,6 @@ globalkeys = my_table.join(
 	  if t < "9" then awful.tag.viewnext() end
        end,
               {description = "view next", group = "tag"}),
-    -- awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
-    --           {description = "go back", group = "tag"}),
     awful.key({ modkey,           }, "Tab", awful.tag.history.restore,
               {description = "go to last tag", group = "tag"}),
 
