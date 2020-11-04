@@ -1,0 +1,12 @@
+# cyan-colored newsbeuter color scheme
+
+color listnormal        white black
+color listnormal_unread cyan black
+color listfocus         magenta black
+color listfocus_unread  magenta black
+color info              black cyan
+color background        white black
+color article           white black
+
+highlight feedlist "---.*---" green black bold
+highlight feedlist "^.*\\(  0\\)" black black

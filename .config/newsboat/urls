@@ -1,0 +1,47 @@
+http://www.phoronix.com/rss.php linux
+http://planet.gnome.org/atom.xml linux
+http://planet.gentoo.org/rss20.xml linux
+http://emacsredux.com/atom.xml emacs linux
+" "
+http://www.bytecellar.com/feed/ blogs
+https://drewdevault.com/blog/index.xml blogs
+http://donysoldcomputers.blogspot.com/rss.xml blogs
+https://www.grumpygamer.com/rss blogs
+https://robertheaton.com/feed.xml blogs
+" "
+http://www.fonien.gr/feed/ news
+https://www.anatolh.com/feed/ news
+" "
+http://www.reddit.com/r/unixporn/.rss reddit
+http://www.reddit.com/r/mechanicalkeyboards/.rss reddit
+" "
+https://www.space.com/feeds/all science
+https://www.sciencenews.org/feed science
+https://spaceflightnow.com/feed science
+" "
+http://rss.slashdot.org/Slashdot/slashdot technology
+http://www.engadget.com/rss.xml technology
+http://www.theverge.com/rss/index.xml technology
+https://news.ycombinator.com/rss technology
+https://www.anandtech.com/rss/ technology
+http://feeds.arstechnica.com/arstechnica/index?format=xml technology
+" "
+http://flix.gr/feed.rss literature
+http://www.mixgrill.gr/rss.php literature
+http://nautil.us/rss/all literature
+http://www.socomic.gr/feed/ literature "~Socomic"
+http://waitbutwhy.com/feed literature
+" "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxzC4EngIsMrPmbm6Nxvb-A youtube "~Scott Manley (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA youtube "~Vox (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg youtube "~Wolfgang's Channel (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZZoxczMLOYZQqNY0eyLheQ youtube "~Jeremy Siers (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQIcXQ2n0sa-7CD0NtqnrrA youtube "~John Darko (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMb0O2CdPBNi-QqPk5T3gsQ youtube "~James Hoffmann (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA youtube "~Jared Owen (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSJPFQdZwrOutnmSFYtbstA youtube "~The Critical Drinker (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w youtube "~CGP Grey (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA youtube "~Computerphile (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg youtube "~MinutePhysics  (YouTube)"
+" "
+https://feeds.megaphone.fm/davidtennant podcasts
