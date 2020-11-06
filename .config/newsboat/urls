@@ -1,6 +1,9 @@
 http://www.phoronix.com/rss.php linux
 http://planet.gnome.org/atom.xml linux
 http://planet.gentoo.org/rss20.xml linux
+https://www.linuxjournal.com/node/feed linux
+https://9to5linux.com/feed/atom linux
+https://feedproxy.google.com/linuxtoday/linux linux
 http://emacsredux.com/atom.xml emacs linux
 " "
 http://www.bytecellar.com/feed/ blogs
@@ -11,6 +14,8 @@ https://robertheaton.com/feed.xml blogs
 " "
 http://www.fonien.gr/feed/ news
 https://www.anatolh.com/feed/ news
+https://www.sdna.gr/latest.xml news
+https://www.thepressproject.gr/feed/ news
 " "
 http://www.reddit.com/r/unixporn/.rss reddit
 http://www.reddit.com/r/mechanicalkeyboards/.rss reddit
@@ -18,6 +23,7 @@ http://www.reddit.com/r/mechanicalkeyboards/.rss reddit
 https://www.space.com/feeds/all science
 https://www.sciencenews.org/feed science
 https://spaceflightnow.com/feed science
+https://popsci.com/rss.xml science
 " "
 http://rss.slashdot.org/Slashdot/slashdot technology
 http://www.engadget.com/rss.xml technology

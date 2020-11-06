@@ -3,8 +3,8 @@
 #
 
 include colorschemes/cyanism
-macro m set browser "/usr/bin/mpv %u"; open-in-browser ; set browser "firefox %u"
-macro p set browser "/home/evas/bin/podcasthandler play -g -H 192.168.0.1 -u %u"; open-in-browser ; set browser "firefox %u"
+macro m set browser "/usr/bin/mpv %u"; open-in-browser ; set browser "surf %u"
+macro p set browser "/home/evas/bin/podcasthandler play -g -H 192.168.0.1 -u %u"; open-in-browser ; set browser "surf %u"
 bind-key k down
 bind-key i up
 bind-key BACKSPACE quit
@@ -142,7 +142,7 @@ articlelist-format "%D | %?T?|%-17T|  ?%t"
 #
 # Default value: %BROWSER, otherwise lynx
 #
-browser "firefox %u"
+browser "surf %u"
 
 ####  cache-file
 #

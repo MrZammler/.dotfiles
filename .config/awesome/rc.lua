@@ -88,7 +88,7 @@ local gui_editor    = os.getenv("GUI_EDITOR") or "emacs"
 local browser       = os.getenv("BROWSER") or "firefox"
 local file_manager  = "nautilus"
 local scrlocker     = "slock"
-local rofi_win_list = "rofi -modi window -show window -theme android_notification -lines 20 -opacity 60 -font \"Inconsolata 12\""
+local rofi_win_list = "rofi -modi window -show windowcd -theme android_notification -lines 20 -opacity 60 -font \"Inconsolata 12\""
 local rofi_run      = "rofi -show run -theme android_notification -lines 20 -opacity 60 -font \"Inconsolata 12\""
 local suspend_mon   = "/home/evas/bin/suspend_monitor"
 local suspend       = "/home/evas/bin/str"
@@ -96,6 +96,7 @@ local show_clipboard= "rofi -modi 'clipboard:/home/evas/bin/greenclip print' -sh
 local ncmpcpp       = "kitty -e ncmpcpp"
 local pushover_i    = "/home/evas/bin/pushover.sh `/home/evas/bin/greenclip print | head -1`"
 local feedreader    = "feedreader"
+local newsboat      = "kitty -o font_size=12 -o initial_window_width=1300 -o initial_window_height=1300 newsboat"
 local notif_info    = "/home/evas/bin/notif_info"
 
 awful.util.terminal = terminal
@@ -548,10 +549,12 @@ globalkeys = my_table.join(
        {description = "show clipboard", group = "launcher"}),
     awful.key({ modkey }, "n", function () awful.spawn(ncmpcpp) end,
        {description = "run ncmpcpp", group = "launcher"}),
-    awful.key({ modkey }, "g", function () awful.spawn(feedreader) end,
+    awful.key({ modkey }, "g", function () awful.spawn(newsboat) end,
        {description = "run feedreader", group = "launcher"}),
+    -- awful.key({ modkey }, "b", function () awful.spawn(newsboat) end,
+    --    {description = "run feedreader", group = "launcher"}),
     awful.key({ modkey }, "s", function () awful.spawn(notif_info) end,
-              {description = "show info notification", group = "launcher"}),
+              {description = "show info notification", group = "launcher"})
 
     -- Default
     --[[ Menubar
@@ -578,17 +581,17 @@ globalkeys = my_table.join(
     -- awful.key({ modkey }, "r", function () awful.screen.focused().mypromptbox:run() end,
     --           {description = "run prompt", group = "launcher"}),
 
-    awful.key({ modkey }, "x",
-              function ()
-                  awful.prompt.run {
-                    prompt       = "Run Lua code: ",
-                    textbox      = awful.screen.focused().mypromptbox.widget,
-                    exe_callback = awful.util.eval,
-                    history_path = awful.util.get_cache_dir() .. "/history_eval"
-                  }
-              end,
-              {description = "lua execute prompt", group = "awesome"})
-    --]]
+    -- [awful.key({ modkey }, "x",
+    --           function ()
+    --               awful.prompt.run {
+    --                 prompt       = "Run Lua code: ",
+    --                 textbox      = awful.screen.focused().mypromptbox.widget,
+    --                 exe_callback = awful.util.eval,
+    --                 history_path = awful.util.get_cache_dir() .. "/history_eval"
+    --               }
+    --           end,
+    --           {description = "lua execute prompt", group = "awesome"})
+    
 )
 
 clientkeys = my_table.join(
